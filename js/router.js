@@ -22,6 +22,9 @@ function navigateTo(route) {
       case '/गार्मेन्ट-बेसिक-तालिम-का':
         loadContent('गार्मेन्ट-बेसिक-तालिम-का');
         break;
+      case '/contact':
+        loadContent('contact.html');
+        break;
       default:
         loadContent('404.html');
     }
