@@ -14,12 +14,13 @@ function loadContent(pageName) {
 }
 
 function navigateTo(route) {
+    console.log(route);
     switch (route) {
       case '/':
         loadContent('index.html');
         break;
       case '/गार्मेन्ट-बेसिक-तालिम-का':
-        loadContent('about.html');
+        loadContent('गार्मेन्ट-बेसिक-तालिम-का');
         break;
       default:
         loadContent('404.html');
